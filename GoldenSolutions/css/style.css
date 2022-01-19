@@ -1,0 +1,129 @@
+/* /* =========================== CUSTOM CODE ============================  */
+@import url('https://fonts.googleapis.com/css2?family=OpenSans:wght@300;400;600;700&display=swap');
+html,body {
+          margin: 0;
+          padding: 0;
+}
+
+.main {
+          background-color: #FF4F28;
+          height: auto;
+          width: 100%;
+          position: relative;
+}
+
+.block {
+          background-color: #fff;
+          padding: 15px;
+          position: relative;
+          border-radius: 128px 0px 0px 0px;
+          top: 197px;
+}
+
+.logo {
+          margin-bottom: 50px;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 35px;
+}
+
+.cloud-background{
+          position: absolute;
+}
+
+.data {
+          text-align: left;
+}
+.data p{
+          font-family: "Open Sans";
+          color: #828282;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 41px;
+}
+
+.data-form {
+          margin-top: 24px;
+}
+
+.form {
+          margin-left: 15px;
+          margin-right: 20px;
+}
+
+label {
+          font-family: "Open Sans";
+          color: #828282;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 27px;
+}
+
+input {
+         background-color: #ECECEC;
+         border: none;
+         border-radius: 5px 5px 5px 5px;
+         width: 100%;
+         height: 51px;
+         margin-bottom: 16px;
+         margin-top: 8px;
+         
+}
+
+input::placeholder {
+          font-family: "Open Sans";
+          font-size: 18px;
+          line-height: 24px;
+          color: #828282;
+          opacity: .5;
+          padding-left: 10px;
+}
+
+.forgot-password {
+          text-align: left;
+          margin-bottom: 24px;
+}
+
+.forgot-password a {
+          text-decoration:underline;
+          color: #828282;
+          line-height: 19px;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: "Open Sans";
+}
+
+.btn-singin {
+          position: relative;
+          margin-bottom: 51px;
+}
+
+.btn-one {
+          width: 302px;
+          height: 60px;
+          text-transform: uppercase;
+          border-radius: 5px 5px 5px 5px;
+          border: none;
+          background-color:#FF4F28;
+          color: #fff;
+          font-weight: 600;
+          font-size: 20px;
+          text-align: center;
+          line-height: 27px;
+          font-family: "Open Sans";
+}
+
+.copyright {
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+}
+
+.copyright p {
+          font-family: "Open Sans";
+          color: #82828282;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 17px;
+}
