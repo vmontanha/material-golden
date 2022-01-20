@@ -1,0 +1,233 @@
+/* /* =========================== CUSTOM CODE ============================  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+html,body {
+          margin: 0;
+          padding: 0;
+          height: 100%;
+          width: 100%;
+}
+
+.hide-mobile {
+          display: none;
+}
+
+.main {
+          background-color: #06519C;
+          height: 100%;
+          width: 100%;
+          position: relative;
+}
+
+.block {
+          background-color: #fff;
+          padding: 15px;
+          position: relative;
+          border-radius: 128px 0px 0px 0px;
+          top: 197px;
+}
+
+.logo {
+          margin-bottom: 50px;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 35px;
+}
+
+.cloud-background{
+          position: absolute;
+}
+
+.data {
+          text-align: left;
+}
+.data-tittle{
+          font-family: "Open Sans", sans-serif;
+          color: #828282;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 41px;
+          margin-bottom: -9px;
+}
+
+.data-subtittle{
+          font-family: "Open Sans", sans-serif;
+          color: #828282;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 22px;
+          margin-left: 20px;
+          margin-bottom: 64px;
+}
+
+.input-email {
+          margin-bottom: 64px;
+}
+
+.data-form {
+          margin-top: 24px;
+}
+
+.form {
+          margin-left: 15px;
+          margin-right: 20px;
+}
+
+label {
+          font-family: "Open Sans", sans-serif;
+          color: #828282;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 27px;
+}
+
+input {
+         background-color: #ECECEC;
+         border: none;
+         border-radius: 5px 5px 5px 5px;
+         width: 100%;
+         height: 51px;
+         margin-bottom: 16px;
+         margin-top: 8px;
+         
+}
+
+input::placeholder {
+          font-family: "Open Sans", sans-serif;
+          font-size: 18px;
+          line-height: 24px;
+          color: #828282;
+          opacity: .5;
+          padding-left: 10px;
+}
+
+
+.forgot-password {
+          text-align: left;
+          margin-bottom: 24px;
+}
+
+#togglePassword {
+          float: right;
+          margin-right: 19px;
+          margin-top: -50px;
+          position: relative;
+          cursor: pointer;
+          z-index: 2;
+        }
+
+.forgot-password a {
+          text-decoration:underline;
+          color: #828282;
+          line-height: 19px;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: "Open Sans", sans-serif;
+}
+
+.btn-singin {
+          position: relative;
+          margin-bottom: 51px;
+          text-align: center;
+}
+
+.btn-one {
+          width: 302px;
+          cursor: pointer;
+          height: 60px;
+          text-transform: uppercase;
+          border-radius: 5px 5px 5px 5px;
+          border: none;
+          background-color:#06519C;
+          color: #fff;
+          font-weight: 600;
+          font-size: 20px;
+          text-align: center;
+          line-height: 27px;
+          font-family: "Open Sans", sans-serif;
+}
+
+.copyright {
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+}
+
+.copyright p {
+          font-family: "Open Sans", sans-serif;
+          color: #82828282;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 17px;
+}
+
+@media screen and (min-width: 768px) {
+
+          html,body {
+                    overflow: hidden;
+          }
+
+          .hide-desktop {
+                    display: none !important;
+          }
+
+          .hide-mobile{
+                    display: block;
+          }
+
+          .main {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-content: center;
+                    flex-wrap: nowrap;
+                    flex-direction: row;
+                    height: 100%;
+                    position: relative;
+                    
+          }
+
+          .block {
+                    width: 45%;
+                    border-radius: 40px 0px 0px 40px;
+                    top: 0;
+                    height: 85%;
+                    box-shadow: -10px 0px 18px #03312929;
+                    align-items: center;
+                    padding-left: 100px;
+                    padding-right: 95px;
+                    padding-bottom: 57px;
+                    padding-top: 56px;
+          }
+
+          .logo {
+                    width: 240px;
+                    text-align: center;
+                    margin-right: auto;
+                    margin-left: 0;
+                    margin-top: 0;
+                    
+          }
+
+          .logo img {
+                    width: 100%;
+          }
+
+          .data-subtittle {
+                    margin-left: 0;
+          }
+
+          .form {
+                    margin-left: 0px;
+                    margin-right: 0px;
+          }
+
+          .cloud-background {
+                    position: absolute;
+                    left: 0;
+          }
+
+          .copyright img {
+                    width: 124px;
+          }
+}
