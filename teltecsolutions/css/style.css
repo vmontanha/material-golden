@@ -13,8 +13,8 @@ html,body {
 }
 
 .main {
-          background-color: #06519C;
-          height: 100%;
+          background-color: #8CC63F;
+          height: auto;
           width: 100%;
           position: relative;
 }
@@ -139,7 +139,7 @@ input::placeholder {
           text-transform: uppercase;
           border-radius: 5px 5px 5px 5px;
           border: none;
-          background-color:#06519C;
+          background-color:#8CC63F;
           color: #fff;
           font-weight: 600;
           font-size: 20px;
@@ -182,22 +182,28 @@ input::placeholder {
                     align-content: center;
                     flex-wrap: nowrap;
                     flex-direction: row;
-                    height: 100%;
                     position: relative;
+                    height: 100vh;
                     
           }
 
           .block {
-                    width: 45%;
+                    width: 50%;
                     border-radius: 40px 0px 0px 40px;
                     top: 0;
-                    height: 85%;
+                    height: calc(100vh - 113px);
                     box-shadow: -10px 0px 18px #03312929;
                     align-items: center;
                     padding-left: 100px;
                     padding-right: 95px;
                     padding-bottom: 57px;
                     padding-top: 56px;
+                    display: flex;
+                    flex-direction: column;
+                    align-content: stretch;
+                    align-items: stretch;
+                    justify-content: center;
+
           }
 
           .logo {
@@ -225,6 +231,9 @@ input::placeholder {
           .cloud-background {
                     position: absolute;
                     left: 0;
+          }
+          .cloud-background img {
+                    height: 100vh;
           }
 
           .copyright img {
