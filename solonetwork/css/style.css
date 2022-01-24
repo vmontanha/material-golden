@@ -219,6 +219,11 @@ input::placeholder {
                     width: 100%;
           }
 
+          .data-form{
+                    max-width: 500px;
+          }
+
+
           .data-subtittle {
                     margin-left: 0;
           }
