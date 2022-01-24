@@ -223,6 +223,11 @@ input::placeholder {
                     max-width: 500px;
           }
 
+          .grid {
+                    margin-left: auto;
+                    margin-right: auto;
+          }
+
           .data-subtittle {
                     margin-left: 0;
           }
