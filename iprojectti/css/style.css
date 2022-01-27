@@ -154,6 +154,10 @@ input::placeholder {
           margin-right: auto;
 }
 
+.copyright img{
+          width: 124px;
+ }
+
 .copyright p {
           font-family: "Open Sans", sans-serif;
           color: #82828282;
