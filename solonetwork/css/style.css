@@ -1,6 +1,11 @@
 /* /* =========================== CUSTOM CODE ============================  */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
+:root {
+          --color-theme: #D32225;
+  }
+
+
 html,body {
           margin: 0;
           padding: 0;
@@ -13,7 +18,7 @@ html,body {
 }
 
 .main {
-          background-color: #D32225;
+          background-color: var(--color-theme);
           height: auto;
           width: 100%;
           position: relative;
@@ -41,6 +46,7 @@ html,body {
 
 .data {
           text-align: left;
+          margin-left: 13px;
 }
 .data-tittle{
           font-family: "Open Sans", sans-serif;
@@ -111,7 +117,7 @@ input::placeholder {
 #toggle {
           float: right;
           margin-right: 19px;
-          margin-top: -50px;
+          margin-top: -55px;
           position: relative;
           cursor: pointer;
           z-index: 2;
@@ -128,7 +134,7 @@ input::placeholder {
 
 .btn-singin {
           position: relative;
-          margin-bottom: 51px;
+          margin-bottom: 35px;
           text-align: center;
 }
 
@@ -139,7 +145,7 @@ input::placeholder {
           text-transform: uppercase;
           border-radius: 5px 5px 5px 5px;
           border: none;
-          background-color:#D32225;
+          background-color: var(--color-theme);
           color: #fff;
           font-weight: 600;
           font-size: 20px;
@@ -220,6 +226,11 @@ input::placeholder {
 
           .logo img {
                     width: 100%;
+          }
+
+
+          .data {
+                    margin-left: 0;
           }
 
           .data-form{
